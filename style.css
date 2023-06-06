@@ -1,0 +1,4 @@
+.checked{
+    /* @apply text-gray-400 line-through before:bg-[url('/images/checked.png')] */
+    
+}

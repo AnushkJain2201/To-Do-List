@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .checked{
+        @apply text-gray-400 line-through before:content-[''] before:bg-[url('images/checked.png')];
+    }
+}
